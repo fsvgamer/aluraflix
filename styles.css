@@ -1,15 +1,54 @@
-<section class="categoria">
-    <h2>Filmes e séries</h2>
-    <div class="categoria-videos">
-        <img src="video1.jpg" alt="Vídeo 1">
-        <img src="video2.jpg" alt="Vídeo 2">
-        <img src="video3.jpg" alt="Vídeo 3">
-    </div>
-</section>
+:body {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    margin: 0px;
+}
 
-.portfolio img {
-    opacity: 0.5;
+header {
+    border-bottom: solid 2px rgb(212, 10, 10);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(212, 10, 10);
 }
-.portfolio img:hover {
-    opacity: 1.0;
+
+.chamada {
+    background: rgb(7, 42, 116);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 10x;
+  }
+
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+ .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
